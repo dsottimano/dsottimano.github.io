@@ -1,0 +1,61 @@
+
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.spacer {
+  padding-top:60px;
+  
+}
+
+.footer{
+  background-color: #ddeaff;
+}
+
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+dl,
+dt,
+p {
+  font-size: 16px;
+}
+
+.leftBox {
+  border-right: 5px solid black;
+  background-color: #ddeaff;
+}
+
+dd::after {
+  padding: 10px 0 10px 0;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
