@@ -14,7 +14,7 @@
 
 
 .spacer {
-  padding-top:60px;
+  padding-top:90px;
   
 }
 
@@ -47,6 +47,7 @@ p {
 .leftBox {
   border-right: 5px solid black;
   background-color: #ddeaff;
+  height:100vh;
 }
 
 dd::after {
